@@ -9,7 +9,7 @@ import os
 # Load verification settings from environment
 IS_VERIFY = os.environ.get("IS_VERIFY", "False").lower() in ("true", "1", "yes")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "353689935e1e4ac6c70ba88c7e6e71dc6fe1e8c0")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "25e3fd19a4ac7dee2affd0c1890129b60c6be2d7")
 HOW_TO_VERIFY = os.environ.get('HOW_TO_VERIFY', "https://t.me/mntgxo/22")
 
 # MongoDB setup
